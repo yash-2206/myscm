@@ -35,12 +35,5 @@ public class UserController {
         return "user/profile";
     }
 
-    // user add contacts page
-
-    // user view contacts
-
-    // user edit contact
-
-    // user delete contact
 
 }
