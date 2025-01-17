@@ -3,7 +3,7 @@ version: "3.8"
 services:
   mysql:
     image: mysql:8
-    container_name: mysql_db_docker
+    container_name: mysql_db_d  ocker
     environment:
       MYSQL_ROOT_PASSWORD: Shreyash@22
       MYSQL_DATABASE: scmdb
@@ -35,16 +35,16 @@ services:
       MYSQL_HOST: mysql
       MYSQL_PORT: 3306
       MYSQL_DB: scmdb
-      MYSQL_USER:
-      MYSQL_PASSWORD:
+      MYSQL_USER: root
+      MYSQL_PASSWORD: Shreyash@22
       EMAIL_HOST: smtp.gmail.com
       EMAIL_PORT: 587
-      EMAIL_USERNAME:
-      EMAIL_PASSWORD:
-      EMAIL_DOMAIN:
-      CLOUDINARY_API_KEY:
-      CLOUDINARY_API_SECRET:
-      CLOUDINARY_NAME:
+      EMAIL_USERNAME: shreyash112203@gmail.com
+      EMAIL_PASSWORD: frnb ixvy akwq kydd
+      EMAIL_DOMAIN: smtp.gmail.com
+      CLOUDINARY_API_KEY: 966361831981928
+      CLOUDINARY_API_SECRET: j1NfmmnEi8l_Ozbn6EjFTkoA_-U
+      CLOUDINARY_NAME: dmkycccsx
     ports:
       - "8082:8080"
     depends_on:
